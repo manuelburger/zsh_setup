@@ -8,7 +8,8 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="powerlevel9k/powerlevel9k"
+# ZSH_THEME="powerlevel9k/powerlevel9k"
+ZSH_THEME=powerlevel10k/powerlevel10k
 
 #POWERLEVEL9K_PROMPT_ON_NEWLINE=true
 POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
@@ -17,15 +18,15 @@ POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX=""
 
 POWERLEVEL9K_MODE='nerdfont-complete'
 
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(host dir vcs virtualenv newline user)
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(host dir dir_writable vcs virtualenv newline user)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status time battery)
 
 POWERLEVEL9K_BATTERY_VERBOSE=false
 
 POWERLEVEL9K_SHORTEN_STRATEGY=""
-POWERLEVEL9K_SHORTEN_DIR_LENGTH=5
+POWERLEVEL9K_SHORTEN_DIR_LENGTH=4
 
-POWERLEVEL9K_TIME_FORMAT='%D{%H:%M}'
+POWERLEVEL9K_TIME_FORMAT='%D{%H:%M:%S}'
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
