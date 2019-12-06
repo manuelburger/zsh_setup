@@ -90,6 +90,12 @@ plugins=(
 	git
 	zsh-syntax-highlighting
 	zsh-autosuggestions
+	z
+	brew
+	osx
+	extract
+	vscode
+	docker
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -120,6 +126,12 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
+# -----------------------------
+# SETTINGS
+# -----------------------------
+setopt auto_cd
+
+
 # -----------------------------
 # ALIASES
 # -----------------------------
