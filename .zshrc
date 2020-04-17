@@ -110,8 +110,7 @@ plugins=(
 	zsh-syntax-highlighting
 	zsh-autosuggestions
 	z
-	brew
-	osx
+	# osx
 	extract
 	vscode
 	docker
