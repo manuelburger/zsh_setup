@@ -113,8 +113,8 @@ plugins=(
 	z
 	# osx
 	extract
-	vscode
-	docker
+	#vscode
+	#docker
 )
 
 source $ZSH/oh-my-zsh.sh
